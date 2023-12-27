@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #86BAA1;
+    color: #081c15;
+}
+
+#gameHeading{
+    text-align: center;
+    padding: 1rem;
+    background-color: #FFCF56;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.chose{
+    display: flex;
+    height: 50vh;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: row;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+}
+img:hover{
+    border: 5px solid #081c15;
+    cursor: pointer;
+    height: 145px;
+    width: 145px;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFCF56;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.userScoreBox,
+.computerScoreBox {
+    text-align: center;
+    font-size: 29px;
+}
+
+.userScoreBox p,
+.computerScoreBox p {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .chose {
+        flex-direction: column;
+        align-items: center;
+        height: 50ch;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+        margin: 0%;
+    }
+    img:hover{
+        border: 5px solid #081c15;
+        cursor: pointer;
+        height: 95px;
+        width: 95px;
+    }
+    .box {
+        margin-bottom: 10px;
+    }
+}
+
+.msgBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#msg{
+    background-color: #081c15;
+    color: #d8f3dc;
+    padding: 10px 20px;
+    border-radius: 1rem;
+}
+#msg:hover{
+    cursor: no-drop;
+}
