@@ -1,39 +1,40 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-body{
+body {
     background-color: #86BAA1;
     color: #081c15;
 }
 
-#gameHeading{
+#gameHeading {
     text-align: center;
     padding: 1rem;
     background-color: #FFCF56;
 }
 
-.box{
+.box {
     height: 150px;
     width: 150px;
     margin: 10px;
 }
 
-.chose{
+.chose {
     display: flex;
     height: 50vh;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
 }
 
-img{
+img {
     height: 150px;
     width: 150px;
     border-radius: 50px;
 }
-img:hover{
+
+img:hover {
     border: 5px solid #081c15;
     cursor: pointer;
     height: 145px;
@@ -67,33 +68,38 @@ img:hover{
         align-items: center;
         height: 50ch;
     }
-    img{
+
+    img {
         height: 100px;
         width: 100px;
         margin: 0%;
     }
-    img:hover{
+
+    img:hover {
         border: 5px solid #081c15;
         cursor: pointer;
         height: 95px;
         width: 95px;
     }
+
     .box {
         margin-bottom: 10px;
     }
 }
 
-.msgBox{
+.msgBox {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-#msg{
+
+#msg {
     background-color: #081c15;
     color: #d8f3dc;
     padding: 10px 20px;
     border-radius: 1rem;
 }
-#msg:hover{
+
+#msg:hover {
     cursor: no-drop;
 }
